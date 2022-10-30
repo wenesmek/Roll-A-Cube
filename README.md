@@ -35,7 +35,7 @@ Aspects to take into account: so that visual studio detects the variables and ca
 
 - Jump cube.
 - Roll movement for the cube
-- Change floor color after ´player´ collides with it
+- Change floor color after `player` collides with it
 - Avoid getting out of the map without RigidBody 
 - Go to another scene, after all the floor is painted
 - The menu scene that after pressing the button, allows you to start playing the game.
@@ -45,6 +45,11 @@ Aspects to take into account: so that visual studio detects the variables and ca
 
   Because i decided to take other way and make my own idea, there are several differences between the original tutorial and my final game. First all, my player is a cube instead a ball, so i have had to research a lot to make the physics works normaly. 
   Jump is just implemented to get all the points in the activity correction, but IS NOT RECOMENDED TO USE. Mostly of the time, the movement of the cube is make by a adding of rotation and displacement to the player. There are no forces in this movements, just maths added to the position of the player. When RigidBody use the physics, this positions can change and make the game not efficient. So thats why JUMP COULD MAKE A MESS in the game graphics and game gameplay.
+
+
+## [Video of an example](https://drive.google.com/file/d/1eMeROTvYHju-IXgdZt9Abwao0stK5igz/view?usp=share_link) :video_camera:
+
+
 
 
 Made whit 💜 by `Néstor Lorenzo Artiles`
